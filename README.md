@@ -108,16 +108,22 @@ P04 (Response draft generator) → P09 (Ticket summary generator) → P10 (Follo
 ## 📝 Iteration Evidence
 
 All prompt versions are documented and refined through iterative testing. See individual prompt files for version histories.  
-**Commit history = version log** — each version reflects improvements made during testing.
+**Commit history = version log** — each version reflects improvements made during testing and refinement.
+
+Each prompt was developed from an initial basic version (v1.0) to a more structured and reliable version (v1.2), improving consistency, automation readiness, and output quality.
 
 | Prompt | Versions | Key improvement |
-|--------|----------|----------------|
-| P01 | v1.0 → v1.2 | Added structured categories and JSON output for automation |
-| P03 | v1.0 → v1.1 | Introduced priority rules to improve consistency |
-| P04 | v1.0 → v1.2 | Added tone constraints and structured response format |
-| P05 | v1.0 → v1.2 | Restricted edits to tone only to preserve meaning |
-| P06 | v1.0 → v1.1 | Added grounding constraint to prevent hallucination |
-| P07 | v1.0 → v1.2 | Added escalation criteria and conservative decision rules |
+|--------|----------|-----------------|
+| P01 | v1.0 → v1.2 | Added structured categories, JSON output, and strict formatting rules for CRM integration |
+| P02 | v1.0 → v1.2 | Introduced sentiment + intensity classification with constraints for consistent analysis |
+| P03 | v1.0 → v1.2 | Added rule-based priority logic and structured output for automation |
+| P04 | v1.0 → v1.2 | Added response structure, tone guidance, and word limits for production-ready output |
+| P05 | v1.0 → v1.2 | Restricted edits to tone only, preserving meaning and improving consistency |
+| P06 | v1.0 → v1.2 | Added grounding constraint and fallback response to prevent hallucination |
+| P07 | v1.0 → v1.2 | Introduced escalation criteria and conservative decision rules |
+| P08 | v1.0 → v1.2 | Added structured summary format with strict grounding to prevent inference |
+| P09 | v1.0 → v1.2 | Introduced structured JSON output and fallback handling for missing data |
+| P10 | v1.0 → v1.2 | Added contextual inputs and constraints for personalised follow-up messages |
 
 ---
 
